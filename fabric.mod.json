@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "no-shift-place",
+  "version": "${version}",
+  "name": "No Shift Place",
+  "description": "Cho phép đặt block (hopper, v.v.) vào rương/lò nung/thùng... mà không cần giữ Shift.",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.noshiftplace.NoShiftPlaceMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
